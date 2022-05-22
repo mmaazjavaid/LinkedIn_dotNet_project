@@ -15,22 +15,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Maaz Javaid\Desktop\6th semester\EAD\N TIER ARCHITECTURE\LinkedIn\LinkedIn
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Home.cshtml]
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Index.cshtml]
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Login.cshtml]
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/SignUp.cshtml]
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/User/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/_ViewImports.cshtml]
+[C:/Users/Maaz Javaid/Desktop/6th semester/EAD/N TIER ARCHITECTURE/LinkedIn/LinkedIn/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

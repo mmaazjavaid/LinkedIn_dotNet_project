@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "Your Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .profile_container {
+            display: flex;
+            width: 80%;
+            max-height: max-content;
+
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+        }
+
+        .image_container {
+            display: flex;
+            min-height: 400px;
+            width: 40%;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            background-color: white;
+        }
+
+        .image_container img {
+            width: 300px;
+            margin: 10px;
+            height: 300px;
+
+            border-radius: 50%;
+        }
+
+        .info_container {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            background-color: #2867B2;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .analytics {
+            display: flex;
+            width: 80%;
+            background-color: white;
+            height: max-content;
+            margin: 30px;
+            border-radius: 15px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+        }
+
+        .analytics_heading {
+            display: flex;
+            width: 80%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .data {
+            display: flex;
+            width: 80%;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+</style>
+<link rel="stylesheet" href="~/css/project.css">
+
+<div class="profile_container">
+            <div class="image_container">
+             <img src="~/images/person.jpg" alt="" srcset="">
+            </div>
+            <div class="info_container">
+                <div class="info_container_data">
+
+                    <div class="info_container_name">
+                        <h1>Muhammad Maaz</h1>
+                    </div>
+                    <div>
+                        <h3><i class="fa fa-briefcase" ></i>&nbsp Software Engineer</h3>
+                <h3><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp Works at Microsoft</h3>
+                <h3><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp mmaazj323@gmail.com</h3>
+                <h3><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp Lahore, Pakistan</h3>
+
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+        <div class="analytics">
+            <div class="analytics_heading">
+                <h2>Analytics</h2>
+            </div>
+            
+            <div class="data">
+                <div class="views"><h2><i class="fa fa-users" aria-hidden="true"></i></h2><h4>54 people viwed your profile</h4></div>
+                <div class="post_impressions"><h2><i class="fa fa-bar-chart" aria-hidden="true"></i></h2><h4>285 post impressions</h4></div>
+                <div class="connections"><h2><i class="fa fa-user-plus" aria-hidden="true"></i></h2><h4>345 connections  built</h4></div>
+            </div>
+            
+        </div>

@@ -11,7 +11,7 @@ namespace LinkedIn.Controllers
         [HttpGet]
         public ViewResult Login()
         {
-            return "Hello";
+            return View();
         }
 
         public string hello()
@@ -41,6 +41,10 @@ namespace LinkedIn.Controllers
         {
             UserRepository.addUser(user);    
             return View("home",UserRepository.getUsers());
+        }
+        public ViewResult Profile()
+        {
+            return View();
         }
     }
 }
