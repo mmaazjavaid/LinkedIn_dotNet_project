@@ -1,0 +1,98 @@
+﻿@model List<LinkedIn.Models.User>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: max-content;
+            
+        }
+        .navbar{
+            display: flex;
+            width: 100%;
+            height: max-content;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .logo-container{
+            display: flex;
+            margin: 25px;
+        }
+        .logo-container img{
+            height: 80px;
+            
+        }
+        #users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#users td, #users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0A66C2;
+  color: white;
+}
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo-container">
+                <img src="logo.png" alt="">
+            </div>
+        </div>
+        <div class="all-users">
+
+            <table id="users">
+                <tr>
+                  <th>#</th>
+                  <th>email</th>
+                  <th>password</th>
+                </tr>
+               @{var i=1;} 
+               @foreach ( LinkedIn.Models.User u in Model)
+                {
+                    <tr>
+                        <td>@i</td>
+                  <td>@u.Email</td>
+                  <td>@u.Password</td>
+                    </tr>
+                    { i++; }
+                }
+                
+              </table>
+        </div>
+    </div>
+</body>
+</html>
