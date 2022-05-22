@@ -11,7 +11,12 @@ namespace LinkedIn.Controllers
         [HttpGet]
         public ViewResult Login()
         {
-            return View();
+            return "Hello";
+        }
+
+        public string hello()
+        {
+            return "hello world";
         }
         [HttpPost]
         public ViewResult Login(User u)
