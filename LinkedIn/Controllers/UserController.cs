@@ -46,5 +46,9 @@ namespace LinkedIn.Controllers
         {
             return View();
         }
+        public ViewResult News()
+        {
+            return View();
+        }
     }
 }

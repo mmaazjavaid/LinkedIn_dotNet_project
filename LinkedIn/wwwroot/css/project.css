@@ -1,4 +1,94 @@
-﻿@media screen and (max-width: 900px) {
+﻿.news-feed-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+    /* align-items: center; */
+}
+
+.news-feed-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.news-feed-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.news-feed-recomendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 15px;
+}
+
+.new-feed-profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.new-feed-profile-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.new-feed-profile-tagline {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.news-feed-recomendation-recomendation {
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+}
+
+    .news-feed-recomendation-recomendation img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+.news-feed-recomendation-heading {
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.news-feed-recomendation-recomendation div {
+    background-color: white;
+}
+
+    .news-feed-recomendation-recomendation div h4 {
+        background-color: white;
+    }
+
+    .news-feed-recomendation-recomendation div p {
+        font-size: 10px;
+        background-color: white;
+    }
+@media screen and (max-width: 900px) {
     .profile_container {
         display: flex;
         flex-direction: column;

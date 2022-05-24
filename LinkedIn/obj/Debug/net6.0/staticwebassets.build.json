@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0sbLVIB1NaSbDn4t6F5+VGeYIC7USyg2oNJabT9XJ1Y=",
+  "Hash": "W0QXQqfjqUxBg8xRDF8OvH/515D9q11oC7DcFQTDAxc=",
   "Source": "LinkedIn",
   "BasePath": "_content/LinkedIn",
   "Mode": "Default",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\google.png",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "images/google.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\google.png"
+    },
+    {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\logo.png",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
@@ -136,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\microsoft.png",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "images/microsoft.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\microsoft.png"
+    },
+    {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\person.jpg",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
@@ -151,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\person.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\tesla.jpg",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "images/tesla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tesla.jpg"
     },
     {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\js\\site.js",
