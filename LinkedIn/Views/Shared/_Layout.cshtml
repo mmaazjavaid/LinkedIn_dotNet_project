@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/font.css">
     <style>
-        
-
         * {
             margin: 0%;
             padding: 0;
             font-family: 'Poppins', sans-serif;
+            background-color: #F3F2EF;
             
         }
 
@@ -34,7 +33,7 @@
             width: 100%;
             height: max-content;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             background-color: white;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
@@ -43,7 +42,9 @@
 
         .logo-container {
             display: flex;
-            margin-left: 15px;
+            width: 88%;
+            background-color: white;
+            /* margin-left: 10px; */
         }
 
         .logo-container img {
@@ -51,9 +52,6 @@
 
         }
 
-
-
-        
     </style>
 </head>
 <body>
@@ -63,7 +61,7 @@
                 <img src="~/images/logo.png" alt="logo">
             </div>
         </div>
-        @RenderBody();
+        @RenderBody()
     </div>
 </body>
 </html>
