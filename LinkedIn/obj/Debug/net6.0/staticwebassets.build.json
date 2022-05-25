@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BMK+o8MUTya7Nwfzi+vQRVtArXB8R74iKRWkTSpLeOI=",
+  "Hash": "acJM3S8bRPCuQ+1VPpggV/i1nUN0g+0qtXtlQBkNkd0=",
   "Source": "LinkedIn",
   "BasePath": "_content/LinkedIn",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\microsoft.jpg",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "images/microsoft.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\microsoft.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\microsoft.png",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
@@ -287,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\tesla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\images\\twitter.png",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "images/twitter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\twitter.png"
     },
     {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\js\\site.js",
