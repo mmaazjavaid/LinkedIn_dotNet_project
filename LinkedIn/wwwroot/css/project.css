@@ -1,7 +1,5 @@
 ﻿/*///////////////////////////////NEWS CSS////////////////////////////////////////*/
 
-
-
 .news-feed-container {
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +48,7 @@
     align-items: center;
     width: 20%;
     background-color: white;
-    max-height: 400px;
+    max-height: 420px;
     border-radius: 15px;
     border: solid 1px #E3E2DF;
 }
@@ -622,14 +620,170 @@
         }
 }
 
-
 @media screen and (max-width: 460px) {
     .links-container {
         display: none;
     }
 }
 
- 
+
+.job-posting-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 40%;
+    background-color: white;
+    height: 500px;
+    border: solid 1px #E3E2DF;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.job-posting-job {
+    display: flex;
+    background-color: white;
+    width: 90%;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: solid 1px #EBEBEB;
+}
+
+.job-details {
+    display: flex;
+    width: 80%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.job-details-logo {
+    background-color: white;
+}
+
+    .job-details-logo img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: solid 2px #E3E2DF;
+        background-color: white;
+    }
+
+.job-posting-heading {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    background-color: white;
+}
+
+    .job-posting-heading h2 {
+        font-size: 20px;
+    }
+
+    .job-posting-heading h2, .job-posting-heading p {
+        background-color: white;
+    }
+
+
+/* width */
+.job-posting-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.job-posting-container::-webkit-scrollbar-track {
+    background: #e7e5e5;
+    border-radius: 15px;
+}
+
+/* Handle */
+.job-posting-container ::-webkit-scrollbar-thumb {
+    background: rgb(204, 201, 201);
+}
+
+    /* Handle on hover */
+    .job-posting-container ::-webkit-scrollbar-thumb:hover {
+        background: rgb(211, 211, 211);
+    }
+
+.job-details-details h2 {
+    font-size: 16px;
+    color: #0A66C2;
+    background-color: white;
+}
+
+.job-details-details p {
+    color: #666666;
+    background-color: white;
+}
+
+.submit-cv-container {
+    background-color: white;
+}
+
+    .submit-cv-container button {
+        background-color: #0A66C2;
+        border: none;
+        color: white;
+        border-radius: 15px;
+        width: max-content;
+        padding: 10px;
+    }
+
+@media screen and (max-width: 1200px) {
+
+    .job-posting-container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 70%;
+        order: 3;
+        background-color: white;
+        height: 600px;
+        border: solid 1px #E3E2DF;
+        border-radius: 15px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .job-posting-container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 90%;
+        order: 3;
+        background-color: white;
+        height: 600px;
+        border: solid 1px #E3E2DF;
+        border-radius: 15px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .job-posting-job {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 90%;
+        justify-content: space-between;
+        border-bottom: solid 1px #EBEBEB;
+    }
+
+    .job-details {
+        width: 100%;
+    }
+
+    .submit-cv-container {
+        margin-bottom: 40px;
+        margin-left: 70px;
+    }
+}
 
 
 

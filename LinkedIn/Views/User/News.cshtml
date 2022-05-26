@@ -9,20 +9,10 @@
 </style>
 <link rel="stylesheet" href="~/css/project.css">
 <div class="news-feed-container">
-            <div class="news-feed-profile">
-                <img class="new-feed-profile-img" src="~/images/person.jpg" alt="" srcset="">
-                <h2 class="new-feed-profile-name">Muhammad Maaz</h2>
-                <h4 class="new-feed-profile-tagline">REACT JS | Laravel Developer | SOFTWARE ENGINEER |
-                    Community Member of MLSA Lahore</h4>
-                 <div class="new-feed-profile-more-info">
-                    <div>
-                        <i class="fa fa-briefcase"  aria-hidden="true"></i>&nbsp;Works at Avicenna
-                    </div>
-                    <div>
-                        <i style=" font-size:medium;" class="fa fa-graduation-cap"  aria-hidden="true"></i>&nbsp;University of Punjab
-                    </div>
-                 </div>   
-            </div>
+           
+    
+           @Html.Partial("~/Views/Shared/_NewsProfile.cshtml")
+            
             <div class="news-feed-news">
                 <div class="news-feed-news-news">
                     <div class="news-feed-news-news-person">
@@ -30,7 +20,7 @@
                         <h5>Maaz Javaid</h5>
                     </div>
                     <div class="news-feed-news-news-image">
-                        <img src="~/images/news.jpg" alt="" srcset="">
+                        <img src="~/images/twitter.png" alt="" srcset="">
                     </div>
                     <div class="news-feed-news-news-likes">
                         <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 87 likes
@@ -50,7 +40,7 @@
                         <h5>Usama Ijaz</h5>
                     </div>
                     <div class="news-feed-news-news-image">
-                        <img src="~/images/news.jpg" alt="" srcset="">
+                        <img src="~/images/tesla.jpg" alt="" srcset="">
                     </div>
                     <div class="news-feed-news-news-likes">
                         <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 66 likes
@@ -71,7 +61,7 @@
                         <h5>Faizan Ijaz</h5>
                     </div>
                     <div class="news-feed-news-news-image">
-                        <img src="~/images/news.jpg" alt="" srcset="">
+                        <img src="~/images/twitter.png" alt="" srcset="">
                     </div>
                     <div class="news-feed-news-news-likes">
                         <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 107 likes
@@ -90,50 +80,5 @@
 
 
             </div>
-            <div class="news-feed-recomendation">
-                          <div class="news-feed-recomendation-heading-container">
-                            <h2 class="news-feed-recomendation-heading">Add to your feed</h1>
-                          </div>          
-                
-                    <div class="news-feed-recomendations-container">
-
-
-                        <div class="news-feed-recomendation-recomendation">
-                            <img src="~/images/tesla.jpg" alt="" srcset="">
-                            <div>
-                                <h4>Tesla</h4>
-                                <p> Automotive and clean energy company</p>
-                            </div>
-                        </div>
-                        <div class="news-feed-recomendation-recomendation">
-                            <img src="~/images/microsoft.jpg" alt="" srcset="">
-                            <div>
-                                <h4>Microsoft</h4>
-                                <p>Technology corporation which produces computer software</p>
-                            </div>
-                        </div>
-                        <div class="news-feed-recomendation-recomendation">
-                            <img src="~/images/google.png" alt="" srcset="">
-                            <div>
-                                <h4>Google</h4>
-                                <p>Technology company that focuses on AI</p>
-                            </div>
-                        </div>
-                        
-
-                        <div class="news-feed-recomendation-recomendation">
-                            <img src="~/images/twitter.png" alt="" srcset="">
-                            <div>
-                                <h4>Twitter</h4>
-                                <p>Twitter, Inc. is an American communications company</p>
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
-                    
-            </div>
+    @Html.Partial("~/Views/Shared/_Recommendation.cshtml")
         </div>
