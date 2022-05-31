@@ -50,6 +50,10 @@ namespace LinkedIn.Controllers
         {
             return View();
         }
+        public ViewResult JobPostForm()
+        {
+            return View();
+        }
         public ViewResult Jobs()
         {
             return View();

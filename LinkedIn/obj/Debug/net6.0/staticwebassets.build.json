@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZQcE3n0l+R4DTj5eFAf/kDP+fmsHycagCBKRJfb4W7s=",
+  "Hash": "8SWCCHsMzraekGMPkFY0EFltwtF04gJ9Z3ddWltSS6w=",
   "Source": "LinkedIn",
   "BasePath": "_content/LinkedIn",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\css\\font.css"
     },
     {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\jobpostform.css",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "css/jobpostform.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jobpostform.css"
+    },
+    {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\login.css",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
@@ -51,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\newsfeed.css",
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\news.css",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
       "BasePath": "_content/LinkedIn",
-      "RelativePath": "css/newsfeed.css",
+      "RelativePath": "css/news.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\newsfeed.css"
+      "OriginalItemSpec": "wwwroot\\css\\news.css"
     },
     {
-      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\project.css",
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\prooject.css",
       "SourceId": "LinkedIn",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
       "BasePath": "_content/LinkedIn",
-      "RelativePath": "css/project.css",
+      "RelativePath": "css/prooject.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\project.css"
+      "OriginalItemSpec": "wwwroot\\css\\prooject.css"
     },
     {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\signup.css",
