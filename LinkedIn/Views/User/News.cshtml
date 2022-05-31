@@ -7,12 +7,43 @@
         border-bottom: 2px solid black;
     }
 </style>
-<link rel="stylesheet" href="~/css/project.css">
+<link rel="stylesheet" href="~/css/newsfeed.css">
 <div class="news-feed-container">
            
     
-           @Html.Partial("~/Views/Shared/_NewsProfile.cshtml")
+@Html.Partial("~/Views/Shared/_NewsProfile.cshtml")
             
+            <div class="news_and_post_container">
+
+            <div class="news-feed-post">
+                <div class="post-banner">
+                    <div>
+                        <p>Create Post</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <img src="~/images/person.jpg" alt="image" srcset="">
+                </div>
+                <div class="post-input">
+                    <input type="text" placeholder="Write Something to Inspire...!" name="" id="">
+                </div>
+                <div class="post-footer">
+                    <div>
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        <i class="fa fa-file-text" aria-hidden="true"></i>
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+
+                    </div>
+                    <div>
+                        <button>post</button>
+                    </div>
+                </div>
+            </div>
+                
             <div class="news-feed-news">
                 <div class="news-feed-news-news">
                     <div class="news-feed-news-news-person">
@@ -73,9 +104,106 @@
                         <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
                     </div>
                 </div>
+                <div class="news-feed-news-news">
+                    <div class="news-feed-news-news-person">
+                        <img src="~/images/person1.jpg" alt="" srcset="">
+                        <h5>Usama Ijaz</h5>
+                    </div>
+                    <div class="news-feed-news-news-image">
+                        <img src="~/images/tesla.jpg" alt="" srcset="">
+                    </div>
+                    <div class="news-feed-news-news-likes">
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 66 likes
+                    </div>
+                    <div class="news-feed-news-news-like">
+                        <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
+                        <div><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;Comment</div>
+                        <div><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;Share</div>
+                        <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
+                    </div>
+                </div>
+
+                <div class="news-feed-news-news">
+                    <div class="news-feed-news-news-person">
+                        <img src="~/images/person.jpg" alt="" srcset="">
+                        <h5>Maaz Javaid</h5>
+                    </div>
+                    <div class="news-feed-news-news-image">
+                        <img src="~/images/twitter.png" alt="" srcset="">
+                    </div>
+                    <div class="news-feed-news-news-likes">
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 87 likes
+                    </div>
+                    <div class="news-feed-news-news-like">
+                        <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
+                        <div><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;Comment</div>
+                        <div><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;Share</div>
+                        <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
+                    </div>
+                </div>
+
+
+                <div class="news-feed-news-news">
+                    <div class="news-feed-news-news-person">
+                        <img src="~/images/person1.jpg" alt="" srcset="">
+                        <h5>Usama Ijaz</h5>
+                    </div>
+                    <div class="news-feed-news-news-image">
+                        <img src="~/images/tesla.jpg" alt="" srcset="">
+                    </div>
+                    <div class="news-feed-news-news-likes">
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 66 likes
+                    </div>
+                    <div class="news-feed-news-news-like">
+                        <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
+                        <div><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;Comment</div>
+                        <div><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;Share</div>
+                        <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
+                    </div>
+                </div>
 
 
 
+                <div class="news-feed-news-news">
+                    <div class="news-feed-news-news-person">
+                        <img src="~/images/person3.jpg" alt="" srcset="">
+                        <h5>Faizan Ijaz</h5>
+                    </div>
+                    <div class="news-feed-news-news-image">
+                        <img src="~/images/twitter.png" alt="" srcset="">
+                    </div>
+                    <div class="news-feed-news-news-likes">
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 107 likes
+                    </div>
+                    <div class="news-feed-news-news-like">
+                        <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
+                        <div><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;Comment</div>
+                        <div><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;Share</div>
+                        <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
+                    </div>
+                </div>
+                <div class="news-feed-news-news">
+                    <div class="news-feed-news-news-person">
+                        <img src="~/images/person1.jpg" alt="" srcset="">
+                        <h5>Usama Ijaz</h5>
+                    </div>
+                    <div class="news-feed-news-news-image">
+                        <img src="~/images/tesla.jpg" alt="" srcset="">
+                    </div>
+                    <div class="news-feed-news-news-likes">
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 66 likes
+                    </div>
+                    <div class="news-feed-news-news-like">
+                        <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
+                        <div><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;Comment</div>
+                        <div><i class="fa fa-share-alt" aria-hidden="true"></i>&nbsp;Share</div>
+                        <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
+                    </div>
+                </div>
+
+
+
+            </div>
 
 
 

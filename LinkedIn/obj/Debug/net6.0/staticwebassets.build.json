@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "acJM3S8bRPCuQ+1VPpggV/i1nUN0g+0qtXtlQBkNkd0=",
+  "Hash": "ZQcE3n0l+R4DTj5eFAf/kDP+fmsHycagCBKRJfb4W7s=",
   "Source": "LinkedIn",
   "BasePath": "_content/LinkedIn",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\newsfeed.css",
+      "SourceId": "LinkedIn",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\",
+      "BasePath": "_content/LinkedIn",
+      "RelativePath": "css/newsfeed.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\newsfeed.css"
     },
     {
       "Identity": "C:\\Users\\Maaz Javaid\\Desktop\\6th semester\\EAD\\N TIER ARCHITECTURE\\LinkedIn\\LinkedIn\\wwwroot\\css\\project.css",
