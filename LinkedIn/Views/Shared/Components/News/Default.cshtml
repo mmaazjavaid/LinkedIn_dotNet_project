@@ -1,13 +1,17 @@
-﻿<div class="news-feed-news-news">
+﻿@model List<LinkedIn.Models.News>
+
+    @foreach ( LinkedIn.Models.News n in Model)
+                {
+                   <div class="news-feed-news-news">
                     <div class="news-feed-news-news-person">
-                        <img src="~/images/person.jpg" alt="" srcset="">
-                        <h5>Muhammad Maaz Javaid</h5>
+                        <img src="@(n.PersonImage)" alt="" srcset="">
+                        <h5> @n.Name </h5>
                     </div>
                     <div class="news-feed-news-news-image">
                         <img src="~/images/twitter.png" alt="" srcset="">
                     </div>
                     <div class="news-feed-news-news-likes">
-                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; 87 likes
+                        <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; @n.Likes likes
                     </div>
                     <div class="news-feed-news-news-like">
                         <div><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;Like</div>
@@ -16,3 +20,7 @@
                         <div><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send</div>
                     </div>
                 </div>
+                  
+                }
+
+
