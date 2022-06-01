@@ -1,5 +1,6 @@
-﻿@model List<LinkedIn.Models.News>
+﻿@model List<LinkedIn.Models.News> 
 
+    @for(var i = 0; i < 3; i++)
     @foreach ( LinkedIn.Models.News n in Model)
                 {
                    <div class="news-feed-news-news">
@@ -8,7 +9,7 @@
                         <h5> @n.Name </h5>
                     </div>
                     <div class="news-feed-news-news-image">
-                        <img src="~/images/twitter.png" alt="" srcset="">
+                        <img src="@(n.NewsImage)" alt="" srcset="">
                     </div>
                     <div class="news-feed-news-news-likes">
                         <i class="fa fa-thumbs-o-up" style="color: #2867B2;" aria-hidden="true"></i>&nbsp; @n.Likes likes
