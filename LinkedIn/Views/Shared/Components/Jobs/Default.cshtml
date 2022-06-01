@@ -1,0 +1,24 @@
+﻿@model List<LinkedIn.Models.Jobs>
+
+    @for(var i = 0; i < 5; i++)
+    @foreach( LinkedIn.Models.Jobs n in Model)
+    {
+        <div class="job-posting-job">
+                    <div class="job-details">
+                        <div class="job-details-logo">
+                            <img src="@(n.CompanyLogo)" alt="" srcset="">
+                        </div>
+                        <div class="job-details-details">
+                            <h2>@n.Title @n.EmployementType</h2>
+                            <p>@n.CompanyName</p>
+                            <p>@n.Location (@n.JobType)</p>
+                            <p>one day ago</p>
+                        </div>
+                    </div>
+                    <div class="submit-cv-container ">
+                        <button class="submit-cv-button">Submit CV</button>
+                    </div>
+                </div>
+    }
+
+
